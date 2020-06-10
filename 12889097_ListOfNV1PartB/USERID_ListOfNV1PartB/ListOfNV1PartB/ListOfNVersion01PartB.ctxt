@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=ListOfNVersion01PartB
+comment0.text=\r\n\ This\ class\ maintains\ an\ arbitrary\ length\ list\ of\ integers.\r\n\ \r\n\ In\ this\ version\ 1\:\r\n\ 1.\ The\ size\ of\ the\ list\ is\ fixed\ after\ the\ object\ is\ created.\r\n\ 2.\ The\ code\ assumes\ there\ is\ at\ least\ one\ element\ in\ the\ list.\r\n\ \r\n\ This\ class\ introduces\ the\ use\ of\ loops.\r\n\ \r\n\ @author\ Raymond\ Lister\ \r\n\ @version\ September\ 2014\r\n\ \r\n
+comment1.params=element
+comment1.target=ListOfNVersion01PartB(int[])
+comment1.text=\r\n\ This\ constructor\ initializes\ the\ list\ to\ the\ same\ values\r\n\ as\ in\ the\ parameter.\r\n\r\n\ @param\ \ element\ \ \ the\ initial\ elements\ for\ the\ list\r\n
+comment2.params=
+comment2.target=int\ getFirst()
+comment2.text=\r\n\ @return\ \ \ \ \ the\ first\ element\ in\ the\ list\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ In\ ListOfN\ in\ this\ test,\ the\ toString\ method\r\n\ should\ return\ a\ String\ such\ that\:\r\n\ \r\n\ 1.\ The\ String\ begins\ with\ an\ open\ brace\ "{"\ followed\r\n\ \ \ \ IMMEDIATELY\ (i.e.\ no\ space)\ by\ the\ first\ element\r\n\ \ \ \ of\ the\ list.\r\n\ 2.\ All\ remaining\ elements\ of\ the\ list\ are\ preceded\ by\r\n\ \ \ \ ",\ "\ (i.e.\ a\ comma\ folowed\ by\ a\ SINGLE\ space).\r\n\ 3.\ The\ String\ ends\ with\ a\ closing\ brace\ "}".\r\n\r\n\ e.g.\ "{1,\ 2,\ 3,\ 4}"\r\n\ \r\n\ @return\ \ \ \ \ A\ summary\ of\ the\ contents\ of\ the\ list.\r\n
+comment4.params=num
+comment4.target=void\ insertFirst(int)
+comment5.params=
+comment5.target=void\ reverse()
+comment6.params=
+comment6.target=int\ sum()
+comment6.text=\r\n\ @return\ \ \ \ \ the\ sum\ of\ the\ elements\ of\ the\ array\r\n
+comment7.params=replaceThis\ withThis
+comment7.target=int\ replaceOnce(int,\ int)
+comment7.text=\r\n\ @return\ \ \ \ \ the\ number\ of\ times\ the\ replacement\ was\ made\ (i.e.\ 0\ or\ 1)\r\n\ \r\n\ @param\ \ replaceThis\ \ \ the\ element\ to\ be\ replaced\r\n\ @param\ \ withThis\ \ \ \ \ \ the\ replacement\r\n
+comment8.params=
+comment8.target=int\ minVal()
+comment8.text=\r\n\ @return\ \ \ \ \ the\ value\ of\ the\ smallest\ element\ in\ the\ array\r\n
+numComments=9
